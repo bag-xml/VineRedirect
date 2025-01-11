@@ -1,0 +1,9 @@
+Package: bag.xml.vineredirect
+Name: VineRedirect
+Version: 2.0
+Architecture: iphoneos-arm
+Description: Allows you to redirect Vine's apiary traffic to a custom URL. UPDATE 2.0: Added a few refinements.
+Maintainer: bag.xml
+Author: bag.xml
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 6.0)

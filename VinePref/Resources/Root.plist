@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>footerText</key>
+			<string>Enter a URL here, the URL you enter will basically replace the apiary domain Vine accesses whenever it makes a request. Effectively making space for creation of a custom server.</string>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Custom Server URL</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>bag.xml.vinepref</string>
+			<key>key</key>
+			<string>URLEndpoint</string>
+			<key>PostNotification</key>
+			<string>bag.xml.vinepref/settingschanged</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>VineRedirect</string>
+</dict>
+</plist>
